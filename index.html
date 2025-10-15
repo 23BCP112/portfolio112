@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subodh Kushwaha | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">Subodh Kushwaha</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#resume" class="nav__link">Resume</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle" aria-label="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <div class="home__img">
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                <image class="home__blob-img" x="8" y="12" href="image.jpg"/>
+                            </g>
+                        </svg>
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Hi, I'm Subodh Kushwaha</h1>
+                        <h3 class="home__subtitle">Aspiring Web Developer</h3>
+                        <p class="home__description">A passionate Computer Science student at PDPU, focused on building efficient and user-friendly digital solutions.</p>
+                        <div class="home__buttons">
+                           <a href="resume.pdf" download class="button button--flex">Download Resume <i class="fa-solid fa-download button__icon"></i></a>
+                           <a href="#projects" class="button button--ghost button--flex">View My Work <i class="fa-solid fa-arrow-right button__icon"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <h2 class="section__title">About Me</h2>
+            <span class="section__subtitle">My Introduction</span>
+            <div class="about__container container grid">
+                <div class="about__data">
+                    <p class="about__description">
+                        I am a dedicated computer science student with a strong foundation in programming and software development. My academic journey has ignited a passion for solving complex problems and creating impactful technology. I thrive in collaborative environments, leveraging strong teamwork and problem-solving skills. I am eager to secure an internship where I can contribute to real-world projects and grow alongside experienced professionals.
+                    </p>
+                </div>
+                <div class="about__skills">
+                    <h3 class="skills__title">My Tech Stack</h3>
+                    <div class="skills__grid">
+                        <div class="skills__item"><i class="fa-brands fa-python"></i> Python</div>
+                        <div class="skills__item"><i class="fa-brands fa-java"></i> Java</div>
+                        <div class="skills__item"><i class="fa-brands fa-js"></i> JavaScript</div>
+                        <div class="skills__item"><i class="fa-brands fa-react"></i> React</div>
+                        <div class="skills__item"><i class="fa-solid fa-database"></i> SQL</div>
+                        <div class="skills__item"><i class="fa-brands fa-html5"></i> HTML5</div>
+                        <div class="skills__item"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+                        <div class="skills__item"><i class="fa-brands fa-git-alt"></i> Git</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects section" id="projects">
+            <h2 class="section__title">Projects 🚀</h2>
+            <span class="section__subtitle">Most Recent Work</span>
+            <div class="projects__container container grid">
+                <div class="project__card">
+                    <img src="assets/project1.png" alt="Screenshot of Event Management System" class="project__img">
+                    <div class="project__data">
+                        <h3 class="project__title">Event Management System</h3>
+                        <p class="project__description">A comprehensive platform to design, organize, and manage college events, from registration to feedback.</p>
+                        <p class="project__stack"><strong>Tech Used:</strong> Java, SQL, Swing GUI</p>
+                        <div class="project__buttons">
+                            <a href="#" class="button button--small">Live Demo <i class="fa-solid fa-external-link-alt"></i></a>
+                            <a href="#" class="button button--ghost button--small">Source Code <i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                </div>
+        </section>
+
+        <section class="resume section" id="resume">
+            <h2 class="section__title">Resume</h2>
+            <span class="section__subtitle">My Professional Journey</span>
+            <div class="resume__container container">
+                 <a href="resume.pdf" download class="button resume__download-btn">Download Full Resume (PDF) <i class="fa-solid fa-file-arrow-down"></i></a>
+
+                <div class="resume__section">
+                    <h3 class="resume__section-title"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                    <div class="resume__item">
+                        <h4 class="resume__item-title">Bachelor of Technology in Computer Science</h4>
+                        <p class="resume__item-subtitle">Pandit Deendayal Energy University (PDPU) | Gandhinagar, Gujarat</p>
+                        <p class="resume__item-date">Expected May 2027</p>
+                        <p class="resume__item-details">
+                            <strong>GPA:</strong> 8.5/10.0 (Example)<br>
+                            <strong>Relevant Coursework:</strong> Data Structures, Algorithms, Object-Oriented Programming, Database Systems, Web Development.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="resume__section">
+                    <h3 class="resume__section-title"><i class="fa-solid fa-briefcase"></i> Experience</h3>
+                    <div class="resume__item">
+                        <h4 class="resume__item-title">CSSI Intern</h4>
+                        <p class="resume__item-subtitle">NGO | Nepal</p>
+                         <p class="resume__item-date">Summer 2024</p>
+                        <ul class="resume__item-bullets">
+                            <li>Collaborated with a team to develop digital educational materials for local students.</li>
+                            <li>Assisted in organizing workshops, improving community digital literacy by 20%.</li>
+                            <li>Applied problem-solving skills to address logistical challenges in a dynamic environment.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="resume__section">
+                    <h3 class="resume__section-title"><i class="fa-solid fa-code"></i> Skills</h3>
+                    <div class="skills__data grid">
+                        <div><strong>Technical:</strong> Python, Java, JavaScript, React, Django, SQL, Git, HTML/CSS</div>
+                        <div><strong>Soft Skills:</strong> Teamwork, Communication, Problem-Solving, Leadership</div>
+                        <div><strong>Languages:</strong> English (Fluent), Nepali (Native), Hindi (Fluent)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Get in Touch</h2>
+            <span class="section__subtitle">Contact Me</span>
+
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__information">
+                        <i class="fa-solid fa-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Email</h3>
+                            <span class="contact__subtitle">23bcp112@sot.pdpu.ac.in</span>
+                        </div>
+                    </div>
+                    <div class="contact__information">
+                        <i class="fa-solid fa-location-dot contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Location</h3>
+                            <span class="contact__subtitle">Nepal</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form action="" class="contact__form grid" id="contact-form">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <input type="text" name="name" class="contact__input" placeholder=" " required>
+                            <label class="contact__label">Name</label>
+                        </div>
+                        <div class="contact__content">
+                            <input type="email" name="email" class="contact__input" placeholder=" " required>
+                            <label class="contact__label">Email</label>
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <textarea name="message" cols="0" rows="7" class="contact__input" placeholder=" " required></textarea>
+                        <label class="contact__label">Message</label>
+                    </div>
+                    <div>
+                        <button type="submit" class="button button--flex">
+                            Send Message
+                            <i class="fa-solid fa-paper-plane button__icon"></i>
+                        </button>
+                    </div>
+                    <p class="contact__message" id="contact-message"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Subodh Kushwaha</h1>
+                    <span class="footer__subtitle">Aspiring Web Developer</span>
+                </div>
+
+                <ul class="footer__links">
+                    <li><a href="#about" class="footer__link">About</a></li>
+                    <li><a href="#projects" class="footer__link">Projects</a></li>
+                    <li><a href="#contact" class="footer__link">Contact</a></li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://www.linkedin.com/in/subodh-kushwaha-39b005338" target="_blank" class="footer__social"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/23BCP112" target="_blank" class="footer__social"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:23bcp112@sot.pdpu.ac.in" target="_blank" class="footer__social"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; 2025 Subodh Kushwaha. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="fa-solid fa-arrow-up scrollup__icon"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
